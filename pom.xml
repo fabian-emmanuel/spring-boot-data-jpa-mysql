@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot Apis CRUD using Spring Data JPA</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
@@ -55,6 +55,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>decadevs-docker</finalName>
 	</build>
 
 </project>
